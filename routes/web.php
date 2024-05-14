@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return 'hi admin';
 });
+Route::get('/o', function () {
+    return 'OI ';
+});
